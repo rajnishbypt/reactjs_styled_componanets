@@ -31,7 +31,7 @@ const Navbar = () => {
        
         .navbar-link {
           text-decoration:none;
-          color: ${({ theme }) => theme.colors.a_link};
+          color: ${({ theme }) => theme.colors.white};
           &:hover,
           &:active {
             color: ${({ theme }) => theme.colors.helper};
