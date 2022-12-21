@@ -12,7 +12,7 @@ const navList = [
     link_name: "About",
   },
   {
-    toLink: "services",
+    toLink: "Service",
     link_name: "Service",
   },
   {

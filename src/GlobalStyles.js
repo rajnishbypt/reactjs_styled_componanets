@@ -1,3 +1,5 @@
+ 
+
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -8,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   font-family: 'Work Sans', sans-serif;
  }
 html {
-  font-size: 100%;
+  font-size: 70%;
   /* scroll-behavior: smooth; */
   /* 1rem = 10px */
   overflow-x: hidden;
@@ -131,4 +133,4 @@ li {
         grid-template-columns: 1fr;
       }
 }
-`;
+`; 

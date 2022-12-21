@@ -5,6 +5,7 @@ import { Button } from "../styles/Button";
 
 const HeroSection = () => {
     const name="Rajnish"
+    const imag ="./images/hero.svg"
   return (
     <Wrapper>
       <div className="container grid grid-two-column">
@@ -17,7 +18,10 @@ const HeroSection = () => {
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> hire me </NavLink>
           </Button></div>
-        <div className="section-hero-image">image</div>
+        <div className="section-hero-image">
+             <picture>
+            <img src={imag} alt="hero image" className="hero-img " />
+          </picture></div>
       </div>
     </Wrapper>
   );

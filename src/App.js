@@ -2,12 +2,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Home from "./pages/Home";
-import Service from "./pages/Service";
+import About from "./About";
+import Contact from "./Contact";
+import Home from "./Home";
+import Service from "./Service";
 import { ThemeProvider } from "styled-components";
 import {GlobalStyle} from "./GlobalStyles"
+import Services from "./Service";
 
 function App() {
   const theme={
@@ -38,7 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Service />} />
+        <Route path="/service" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
