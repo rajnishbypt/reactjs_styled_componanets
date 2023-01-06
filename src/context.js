@@ -3,7 +3,7 @@ import reducer from "./reducer";
 
 const AppContext = React.createContext();
 
-const API = "https://thapareactapi.up.railway.app";
+ 
 
 const intialState = {
   name: "",
@@ -47,7 +47,7 @@ const AppProvider = ({ children }) => {
 
   // to call the api
   useEffect(() => {
-    getServices(API);
+    getServices();
   }, []);
 
   return (
